@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="UTF-8">
+	<title>55 数据营销成熟度调查问卷</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="shortcut icon"
+		href="https://assets-global.website-files.com/639c95fb9aee04eb8ffde8d9/63e60736fbd6dd952162cdac_LOGOS23_BTG-WHITE.svg"
+		type="image/x-icon" />
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+	<script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+	<link rel='stylesheet'
+		href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900|Open+Sans:400,300,600,700,800|Raleway:400,100,200,300,500,600,700,800,900'>
+	<link rel='stylesheet'
+		href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.42/css/bootstrap-datetimepicker.min.css'>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+	<!-- partial:index.partial.html -->
+	<div class="container-fluid main_container">
+		<div class="row">
+			<div class="col-sm-12">
+				<img src="https://assets-global.website-files.com/639c95fb9aee04eb8ffde8d9/63e60d2411c928f9e97bf9a4_LOGOS23_RED.svg"
+					loading="lazy" alt="" class="img-thumbnail" style="will-change: opacity; opacity: 1;width: 30%;">
+				<div class="mm-survey">
+
+					<div class="mm-survey-progress">
+						<div class="mm-survey-progress-bar mm-progress"></div>
+					</div>
+
+					<div class="mm-survey-results">
+						<div class="mm-survey-results-container">
+							<p class="mm-survey-results-score">感谢提交问卷！请查看由55分析之后帮大家梳理的下一步可以实施的方案和步骤。具体请联系55相应的同事获取更多的信息.
+							</p>
+							<div id="myChart" class="chart--container">
+							</div>
+							</script>
+							<p>作为下一步，我们建议您立刻了解并开始部署以下以便尽快应对隐私合规带来的数据营销挑战</p>
+							<ul class="mm-survey-results-list"></ul>
+
+						</div>
+						<div class="mm-survey-results-controller">
+							<div class="mm-back-btn">
+								<button>Back</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="mm-survey-bottom">
+						<div class="mm-survey-container"></div>
+						<div class="mm-survey-controller">
+							<div class="mm-prev-btn">
+								<button>Prev</button>
+							</div>
+							<div class="mm-next-btn">
+								<button disabled="true">Next</button>
+							</div>
+							<div class="mm-finish-btn">
+								<button>Submit</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- partial -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js'></script>
+	<script
+		src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.42/js/bootstrap-datetimepicker.min.js'></script>
+	<script charset="UTF-8" src="https://static.sensorsdata.cn/sdk/1.26.3/sensorsdata.min.js"></script>
+	<script charset="UTF-8">
+		var sensors = window['sensorsDataAnalytic201505'];
+		sensors.init({
+			server_url: 'http://fifty-five.datasink.sensorsdata.cn/sa?token=937c4db6873923f8&project=production',
+			heatmap: { scroll_notice_map: 'not_collect' },
+			is_track_single_page: true,
+			use_client_time: true,
+			send_type: 'beacon'
+		});
+		sensors.quick('autoTrack');
+	</script>
+	<script src="./script.js"></script>
+
+</body>
+
+</html>
