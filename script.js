@@ -1176,7 +1176,7 @@ jQuery(document).ready(function () {
 
 	function score_to_solution(data) {
 		var solution;
-		if (4 < data < 8) {
+		if (4 < data && data < 8) {
 			return solution = 
 				[
 					"Consent Mode",
@@ -1190,7 +1190,7 @@ jQuery(document).ready(function () {
 		}
 
 
-		if (8 < data < 12) {
+		if (8 < data && data < 12) {
 			return solution = 
 				[
 					"Enhance Conversion",
@@ -1202,7 +1202,7 @@ jQuery(document).ready(function () {
 		
 		}
 
-		if (12 < data < 16) {
+		if (12 < data && data < 16) {
 			return solution = 
 				[
 					"Enhance Conversion",
@@ -1217,24 +1217,8 @@ jQuery(document).ready(function () {
 		}
 
 
-		if (16 < data < 20) {
+		if (16 < data && data < 20) {
 			return solution = 
-				[
-					"Enhance Conversion",
-					"Server Side GTM",
-					"Offline Conversion",
-					"Customer Match",
-					"Contextual Targeting",
-					"AB Testing",
-					"Data modeling",
-					"Incremental Experiement",
-					"1st Party Data Advertsing Platform"
-				]
-		
-		}
-
-		if (16 < data < 20) {
-			solution = 
 				[
 					"Enhance Conversion",
 					"Server Side GTM",
