@@ -244,32 +244,38 @@ jQuery(document).ready(function () {
 			}
 		},
 		8: {
-			'question': '您是否对这场分享会感到满意和有收获？',
+			'question': '您是否对此次分享会感到满意？请对此次活动进行评分（分数从高到低为 5-1）',
 			'answer': {
 				1: {
 					'type': 'radio',
 					'dynamic': true,
 					'route': 9,
-					'item': '有价值，有收获'
+					'item': '5'
 				},
 				2: {
 					'type': 'radio',
 					'dynamic': true,
 					'route': 9,
-					'item': '内容有些晦涩，没有完全理解'
+					'item': '4'
 				},
 				3: {
 					'type': 'radio',
 					'dynamic': true,
 					'route': 9,
-					'item': '了解到了一些之前没有了解过的知识'
+					'item': '3'
 				},
 				4: {
 					'type': 'radio',
 					'dynamic': true,
 					'route': 9,
-					'item': '内容不是我感兴趣的'
-				}
+					'item': '2'
+				}，
+				5: {
+					'type': 'radio',
+					'dynamic': true,
+					'route': 9,
+					'item': '1'
+				}，
 			}
 		},
 
