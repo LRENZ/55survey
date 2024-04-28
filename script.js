@@ -275,7 +275,7 @@ jQuery(document).ready(function () {
 					'dynamic': true,
 					'route': 9,
 					'item': '1'
-				}，
+				}
 			}
 		},
 
