@@ -220,19 +220,19 @@ jQuery(document).ready(function () {
 				1: {
 					'type': 'radio',
 					'dynamic': true,
-					'route': 8,
+					'route': 9,
 					'item': '为遵守 CCPA 和 GDPR 而制定的基本数据治理方案和原则'
 				},
 				2: {
 					'type': 'radio',
 					'dynamic': true,
-					'route': 8,
+					'route': 9,
 					'item': '实施更全面的治理，但跨业务部门孤立'
 				},
 				3: {
 					'type': 'radio',
 					'dynamic': true,
-					'route': 8,
+					'route': 9,
 					'item': '跨营销、广告、分析和 IT 团队的集中治理'
 				},
 				4: {
