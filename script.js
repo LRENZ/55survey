@@ -238,7 +238,7 @@ jQuery(document).ready(function () {
 				4: {
 					'type': 'radio',
 					'dynamic': true,
-					'route': 8,
+					'route': 9,
 					'item': '将治理策略下至各个字段级别，用于标记、使用和实施'
 				}
 			}
